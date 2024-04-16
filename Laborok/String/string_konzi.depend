@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1713295176 source:/home/wittmann/Programing/other/string_konzi/main.cpp
+	<iostream>
+	"string.h"
+
+1713294411 /home/wittmann/Programing/other/string_konzi/include/string.h
+	<iostream>
+
+1713295144 source:/home/wittmann/Programing/other/string_konzi/src/string.cpp
+	"string.h"
+

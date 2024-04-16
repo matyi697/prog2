@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1713020969 source:/home/wittmann/Programing/prog2/Laborok/GettingStarted/main.cpp
+	<iostream>
+	"head.h"
+
+1713005895 source:/home/wittmann/Programing/prog2/Laborok/GettingStarted/file2.cpp
+	<iostream>
+
+1713021086 /home/wittmann/Programing/prog2/Laborok/GettingStarted/head.h
+
+1713005895 /home/wittmann/Programing/prog2/Laborok/GettingStarted/file2.cpp
+	<iostream>
+

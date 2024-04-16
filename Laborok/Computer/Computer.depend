@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1713127071 source:/home/wittmann/Programing/prog2/Laborok/Computer/main.cpp
+	"Computer.h"
+
+1713127168 /home/wittmann/Programing/prog2/Laborok/Computer/include/Computer.h
+
+1713127047 source:/home/wittmann/Programing/prog2/Laborok/Computer/src/Computer.cpp
+	"Computer.h"
+	<iostream>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1713021649 source:/home/wittmann/Programing/prog2/Laborok/HelloWorld/main.cpp
+	"vikworldPrint.h"
+
+1713022093 /home/wittmann/Programing/prog2/Laborok/HelloWorld/vikworldPrint.h
+	<stdio.h>
+

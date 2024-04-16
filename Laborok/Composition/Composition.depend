@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1713039092 source:/home/wittmann/Programing/prog2/Laborok/Composition/main.cpp
+	<iostream>
+	"src/boundingCircle.cpp"
+
+1713037161 source:/home/wittmann/Programing/prog2/Laborok/Composition/src/circle.cpp
+	"circle.h"
+
+1713038393 /home/wittmann/Programing/prog2/Laborok/Composition/include/circle.h
+	<cmath>
+	<iostream>
+
+1713037218 source:/home/wittmann/Programing/prog2/Laborok/Composition/src/rectangle.cpp
+	"rectangle.h"
+
+1713038396 /home/wittmann/Programing/prog2/Laborok/Composition/include/rectangle.h
+	<iostream>
+
+1713093678 source:/home/wittmann/Programing/prog2/Laborok/Composition/src/boundingCircle.cpp
+	"boundingCircle.h"
+	<iostream>
+
+1713094064 /home/wittmann/Programing/prog2/Laborok/Composition/include/boundingCircle.h
+	"rectangle.h"
+	"circle.h"
+	<cmath>
+	<iostream>
+
+1713093678 /home/wittmann/Programing/prog2/Laborok/Composition/src/boundingCircle.cpp
+	"boundingCircle.h"
+	<iostream>
+
+1713038787 source:/home/wittmann/Programing/prog2/Laborok/Composition/include/boundingCircle.h
+	"rectangle.h"
+	"circle.h"
+	<cmath>
+	<iostream>
+
+1713038393 source:/home/wittmann/Programing/prog2/Laborok/Composition/include/circle.h
+	<cmath>
+	<iostream>
+
+1713038396 source:/home/wittmann/Programing/prog2/Laborok/Composition/include/rectangle.h
+	<iostream>
+

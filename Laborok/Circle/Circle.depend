@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1713033216 source:/home/wittmann/Programing/prog2/Laborok/Circle/src/circle.cpp
+	"circle.h"
+
+1713033622 /home/wittmann/Programing/prog2/Laborok/Circle/include/circle.h
+	<cmath>
+	<iostream>
+
+1713033589 source:/home/wittmann/Programing/prog2/Laborok/Circle/main.cpp
+	<iostream>
+	"src/circle.cpp"
+
+1713033216 /home/wittmann/Programing/prog2/Laborok/Circle/src/circle.cpp
+	"circle.h"
+

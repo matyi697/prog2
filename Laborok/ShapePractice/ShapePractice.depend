@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1713032938 source:/home/wittmann/Programing/prog2/Laborok/ShapePractice/main.cpp
+	<iostream>
+	"src/rectangle.cpp"
+
+1713032490 source:/home/wittmann/Programing/prog2/Laborok/ShapePractice/src/rectangle.cpp
+	"rectangle.h"
+
+1713032996 /home/wittmann/Programing/prog2/Laborok/ShapePractice/include/rectangle.h
+	<iostream>
+
+1713032490 /home/wittmann/Programing/prog2/Laborok/ShapePractice/src/rectangle.cpp
+	"rectangle.h"
+

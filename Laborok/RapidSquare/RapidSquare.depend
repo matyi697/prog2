@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1713030712 source:/home/wittmann/Programing/prog2/Laborok/RapidSquare/main.cpp
+	<iostream>
+	<cstring>
+

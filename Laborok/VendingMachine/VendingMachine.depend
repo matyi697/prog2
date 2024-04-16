@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1713096270 source:/home/wittmann/Programing/prog2/Laborok/VendingMachine/src/VendingMachine.cpp
+	"VendingMachine.h"
+	<cstdio>
+
+1713094799 /home/wittmann/Programing/prog2/Laborok/VendingMachine/include/VendingMachine.h
+	<string>
+
+1713096045 source:/home/wittmann/Programing/prog2/Laborok/VendingMachine/main.cpp
+	"VendingMachine.h"
+
