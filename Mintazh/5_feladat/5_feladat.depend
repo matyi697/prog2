@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1713713819 source:/home/wittmann/Programing/prog2/Mintazh/5_feladat/main.cpp
+	<iostream>
+	"src/car.cpp"
+
+1713712521 /home/wittmann/Programing/prog2/Mintazh/5_feladat/src/car.cpp
+	"car.h"
+
+1713714273 /home/wittmann/Programing/prog2/Mintazh/5_feladat/include/car.h
+	<iostream>
+
+1713712521 source:/home/wittmann/Programing/prog2/Mintazh/5_feladat/src/car.cpp
+	"car.h"
+

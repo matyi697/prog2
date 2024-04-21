@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1713358413 source:/home/wittmann/Programing/prog2/Laborok/Equipment/src/display.cpp
+	<iostream>
+	"display.h"
+
+1713359906 /home/wittmann/Programing/prog2/Laborok/Equipment/include/display.h
+	"equipment.h"
+
+1713358456 source:/home/wittmann/Programing/prog2/Laborok/Equipment/src/printer.cpp
+	<iostream>
+	"printer.h"
+
+1713359932 /home/wittmann/Programing/prog2/Laborok/Equipment/include/printer.h
+	"equipment.h"
+
+1713360086 /home/wittmann/Programing/prog2/Laborok/Equipment/include/equipment.h
+
+1713359833 source:/home/wittmann/Programing/prog2/Laborok/Equipment/src/equipment.cpp
+	"equipment.h"
+
+1713359960 source:/home/wittmann/Programing/prog2/Laborok/Equipment/main.cpp
+	<iostream>
+	"display.h"
+	"printer.h"
+	"equipment.h"
+

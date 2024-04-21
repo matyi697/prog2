@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1713710769 source:/home/wittmann/Programing/prog2/Mintazh/4_feladat/src/spray.cpp
+	"spray.h"
+
+1713711994 /home/wittmann/Programing/prog2/Mintazh/4_feladat/include/spray.h
+	<iostream>
+
+1713710773 source:/home/wittmann/Programing/prog2/Mintazh/4_feladat/src/tractor.cpp
+	"tractor.h"
+
+1713711291 /home/wittmann/Programing/prog2/Mintazh/4_feladat/include/tractor.h
+	"spray.h"
+
+1713710808 source:/home/wittmann/Programing/prog2/Mintazh/4_feladat/main.cpp
+	<iostream>
+	"src/tractor.cpp"
+
+1713710773 /home/wittmann/Programing/prog2/Mintazh/4_feladat/src/tractor.cpp
+	"tractor.h"
+
