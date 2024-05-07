@@ -35,13 +35,11 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/railwayNetwork.h" />
-		<Unit filename="include/station.h" />
 		<Unit filename="include/timetable.h" />
 		<Unit filename="include/train.h" />
 		<Unit filename="include/traintime.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/railwayNetwork.cpp" />
-		<Unit filename="src/station.cpp" />
 		<Unit filename="src/timetable.cpp" />
 		<Unit filename="src/train.cpp" />
 		<Unit filename="src/traintime.cpp" />

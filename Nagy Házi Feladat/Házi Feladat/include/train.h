@@ -11,7 +11,7 @@ class Train
 private:
     string id;              //vonat azonosito
     string currentStation;  //az allomas amin a vonat eppen tartozkodik
-    string* stations;       //az allomasok amin menetrend szerint mennie kellene
+    string* stations;       //az allomasok amin menetrend szerint mennie kellene (nem minden allomast tartalmaz)
     int statNum;            //stations elemszama
     int speed;              //a vonat sebessege (az utazasi idohoz kell)
 

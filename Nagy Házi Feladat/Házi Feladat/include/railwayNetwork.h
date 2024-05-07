@@ -1,5 +1,6 @@
 #ifndef RAILWAYNETWORK_H
 #define RAILWAYNETWORK_H
+
 #include <string>
 #include <iostream>
 #include "station.h"
@@ -9,7 +10,7 @@ using namespace std;
 class RailwayNetwork
 {
 private:
-    string* stations;   //az allomasok nevei, szigoruan sorrendben
+    string* stations;   //az allomasok nevei, szigoruan sorrendben, a hlozat osszes allomasat tartalmazza
     int statNum;        //a stations elemszama
     int** table;        //az allomasok egymastol valo tavolsaga km-ben megadva az oszlopok es sorok a stations sorrendjeben
     int tableNum;       //mivel negyzetes ezert ugyan annyi sor mint oszlop

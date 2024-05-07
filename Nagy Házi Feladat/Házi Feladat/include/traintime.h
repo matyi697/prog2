@@ -1,6 +1,7 @@
 #ifndef TRAINTIME_H
 #define TRAINTIME_H
 
+#include <iostream>
 
 class TrainTime
 {
@@ -51,8 +52,7 @@ public:
     TrainTime operator-(const TrainTime& other) const {
         int h = hour - other.hour;
         int m = minute - other.minute;
-        if (m < 0)
-        {
+        if (m < 0) {
             h--;
             m += 60;
         }
@@ -60,7 +60,7 @@ public:
     }
 
     //egyeb fugvenyek
-    void printTime();
+    void printTime() const {std::cout << hour << ":" << minute;};
 };
 
 #endif // TRAINTIME_H
