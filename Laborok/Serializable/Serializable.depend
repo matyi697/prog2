@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1713962647 source:/home/wittmann/Programing/prog2/Laborok/Serializable/src/comparable.cpp
+	"comparable.h"
+
+1713962624 /home/wittmann/Programing/prog2/Laborok/Serializable/include/comparable.h
+
+1713962686 source:/home/wittmann/Programing/prog2/Laborok/Serializable/src/loader.cpp
+	"loader.h"
+
+1713962741 /home/wittmann/Programing/prog2/Laborok/Serializable/include/loader.h
+	<string>
+	<fstream>
+	"serializable.h"
+
+1713962957 /home/wittmann/Programing/prog2/Laborok/Serializable/include/serializable.h
+	<iostream>
+
+1713962792 source:/home/wittmann/Programing/prog2/Laborok/Serializable/src/person.cpp
+	"person.h"
+
+1713962807 /home/wittmann/Programing/prog2/Laborok/Serializable/include/person.h
+	"comparable.h"
+	"serializable.h"
+
+1713962858 source:/home/wittmann/Programing/prog2/Laborok/Serializable/src/saver.cpp
+	"saver.h"
+
+1713962868 /home/wittmann/Programing/prog2/Laborok/Serializable/include/saver.h
+	<string>
+	<fstream>
+	"serializable.h"
+
+1713962891 source:/home/wittmann/Programing/prog2/Laborok/Serializable/src/serializable.cpp
+	"serializable.h"
+
