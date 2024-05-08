@@ -8,27 +8,13 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
-    string stations[] = {"Budapest", "Pécs", "Szeged"};
-    int statNum = sizeof(stations) / sizeof(stations[0]);
-    int tableNum = statNum;
-    RailwayNetwork network(stations, statNum, tableNum);
+    RailwayNetwork r1;
+    r1.loadTableFromCSV(argv[1]);   //testelve
+    r1.addStation("tonyas");
 
-    TrainTime start(8, 0);  //8:00
-    TrainTime delta(0, 20); //20 perc a delta
-    Train train1("123", "Budapest", 100, stations, statNum);
-    Train train2("456", "Pécs", 120, stations, statNum);
-    Train* trains = new Train[2];
-    trains[0] = train1;
-    trains[1] = train2;
-    int trainNum = 2;
-    TimeTable timetable(trains, trainNum, network, start, delta);
+    for(int i = 0; i < r1.getStationsNum(); i++)
+        cout << r1.getStation(i) << " ";
 
-    timetable.printTimeTable();
 
-    timetable.generateTimeTable();
-
-    //timetable.printTimeTable();
-
-    delete[] trains;
     return 0;
 }

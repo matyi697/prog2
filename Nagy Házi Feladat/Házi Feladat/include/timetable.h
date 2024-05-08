@@ -34,6 +34,7 @@ public:
     void setDelta(TrainTime delta_) {delta = delta_;}
 
     //egyeb fuggvenyek
+    void loadTrainsFromFile();
     void generateTimeTable() const;     //elmenti a "formazott" menetrendet egy csv file-ba
     void printTimeTable() const;        //kiirja a menetrendet
     void generateTableForTrain() const; //az adott vonatnak generalja le a menetrend sorat

@@ -10,12 +10,13 @@ private:
     int hour;
 public:
     //konstruktorok
-    TrainTime(const int h, const int m) : hour(h), minute(m) {}
     TrainTime() : hour(0), minute(0) {}
+    TrainTime(const int h, const int m) : hour(h), minute(m) {}
+
     //setterek, getterek
-    void setTime(const int h, const int m);
-    void setMinute(const int m);
-    void setHour(const int h);
+    void setTime(const int h, const int m) {hour = h; minute = m;}
+    void setMinute(const int m) {minute = m;}
+    void setHour(const int h) {hour = h;}
     int getHour() const {return hour;}
     int getMinute() const {return minute;}
 
@@ -33,9 +34,6 @@ public:
             return minute > other.minute;
         return hour > other.hour;
     }
-
-    bool operator<=(const TrainTime& other) const{return !(other < *this);}
-    bool operator>=(const TrainTime& other) const{return !(*this < other);}
 
     //muveleti operatorok
     TrainTime operator+(const TrainTime& other) const {

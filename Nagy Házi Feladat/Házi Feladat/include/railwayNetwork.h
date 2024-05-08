@@ -1,8 +1,12 @@
 #ifndef RAILWAYNETWORK_H
 #define RAILWAYNETWORK_H
 
-#include <string>
 #include <iostream>
+#include <string>
+#include <map>
+#include <vector>
+#include <sstream>
+#include <fstream>
 #include "station.h"
 
 using namespace std;
@@ -10,25 +14,21 @@ using namespace std;
 class RailwayNetwork
 {
 private:
-    string* stations;   //az allomasok nevei, szigoruan sorrendben, a hlozat osszes allomasat tartalmazza
-    int statNum;        //a stations elemszama
-    int** table;        //az allomasok egymastol valo tavolsaga km-ben megadva az oszlopok es sorok a stations sorrendjeben
-    int tableNum;       //mivel negyzetes ezert ugyan annyi sor mint oszlop
+    string* stations;
+    unsigned stationsNum;
+    map<string, map<string, int>> table;
 public:
-    //konstruktorok - destruktor
-    RailwayNetwork() {}
-    RailwayNetwork(const string* stations_, const int statNum_, const int tableNum_); //alapbol 0-k vannak a table-ben
-    ~RailwayNetwork();
-
+    RailwayNetwork(): stations(nullptr), stationsNum(0) {}
+    ~RailwayNetwork() {delete [] stations;}
     //getterek
-    string* getStations() const {return stations;}
-    int getStationNumber() const {return statNum;}
-    int getTableNumber() const{return tableNum;}
-    int** getTable() const{return table;}
+    map<string, map<string, int>> getTable() const {return table;}
+    string& getStation(const unsigned index) const {return stations[index];}
+    unsigned getStationsNum () const {return stationsNum;}
 
     //setterek
-    void setStations(const string* stations_, const int statNum_);
-    void setTable(const int** table_, const int tableNum_);
+    void addStation(const string& newData);
+    void setStations(const string& stationFrom, const string& stationTo, const unsigned newData);
+    void initTable();
 
     //egyeb fugvenyek
     void loadTableFromCSV(const string& filename);  //a table 2D-s tombot egy csv filebol beolvassa

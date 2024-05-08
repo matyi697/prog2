@@ -11,6 +11,7 @@
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
+				<Option parameters="allomasok.csv" />
 				<Compiler>
 					<Add option="-g" />
 					<Add directory="include" />
@@ -34,6 +35,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="allomasok.csv" />
 		<Unit filename="include/railwayNetwork.h" />
 		<Unit filename="include/timetable.h" />
 		<Unit filename="include/train.h" />
@@ -43,6 +45,7 @@
 		<Unit filename="src/timetable.cpp" />
 		<Unit filename="src/train.cpp" />
 		<Unit filename="src/traintime.cpp" />
+		<Unit filename="vonatok.csv" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
